@@ -9,6 +9,8 @@ import java.util.Map;
  * @author jiahao
  * @create 2020-04-06 17:04
  */
+
+@Component
 public class ActivityDegradeFeignClient implements ActivityFeignClient {
     @Override
     public Result findAll() {
